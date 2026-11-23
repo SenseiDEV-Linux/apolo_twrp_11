@@ -18,6 +18,8 @@
 
 PRODUCT_RELEASE_NAME := apollo
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
+TW_EXCLUDE_APEX := true
+TW_USE_FSCRYPT_POLICY := 1
 DEVICE_PATH := device/xiaomi/apollo
 
 # fastbootd stuff PRODUCT_PACKAGES += \
